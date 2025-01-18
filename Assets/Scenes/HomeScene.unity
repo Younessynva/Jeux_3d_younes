@@ -176,11 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
   m_text: THE SPACE EXPLORER EXPERIENCE
-=======
-  m_text: Bienvenue Dans le Futur
->>>>>>> 3f0fac24c19643f7b44de134096ba36bb93989ba
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: f629c6e43dba4bf38cb74d8860150664, type: 2}
@@ -1110,7 +1106,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
-<<<<<<< Updated upstream
 --- !u!1 &1402766475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,8 +1451,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776980265}
   m_CullTransparentMesh: 1
-=======
->>>>>>> Stashed changes
 --- !u!1 &2026688467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1759,9 +1752,6 @@ SceneRoots:
   - {fileID: 1384001763}
   - {fileID: 830491603}
   - {fileID: 2026688471}
-<<<<<<< Updated upstream
   - {fileID: 1368970778}
   - {fileID: 51781808}
   - {fileID: 57639536}
-=======
->>>>>>> Stashed changes
