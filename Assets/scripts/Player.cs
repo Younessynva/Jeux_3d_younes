@@ -7,28 +7,33 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        // Déplacement avant/arrière avec les flèches haut/bas
+        // Calcul du mouvement avant/arrière et latéral
+        float moveForward = 0f;
+        float moveSideways = 0f;
+
         if (Input.GetKey(KeyCode.UpArrow)) // Flèche haut pour avancer
         {
-            transform.position += transform.forward * speed * Time.deltaTime;
+            moveForward += 1f;
         }
         if (Input.GetKey(KeyCode.DownArrow)) // Flèche bas pour reculer
         {
-            transform.position -= transform.forward * speed * Time.deltaTime;
+            moveForward -= 1f;
         }
-
-        // Déplacement latéral avec les flèches gauche/droite
         if (Input.GetKey(KeyCode.LeftArrow)) // Flèche gauche pour bouger à gauche
         {
-            transform.position -= transform.right * speed * Time.deltaTime;
+            moveSideways -= 1f;
         }
         if (Input.GetKey(KeyCode.RightArrow)) // Flèche droite pour bouger à droite
         {
-            transform.position += transform.right * speed * Time.deltaTime;
+            moveSideways += 1f;
         }
 
-        // Rotation gauche/droite avec les touches "Q" et "D"
-        if (Input.GetKey(KeyCode.S)) // Touche "Q" pour tourner à gauche
+        // Normalisation du vecteur de déplacement
+        Vector3 movement = new Vector3(moveSideways, 0, moveForward).normalized;
+        transform.position += movement * speed * Time.deltaTime;
+
+        // Rotation gauche/droite avec les touches "S" et "D"
+        if (Input.GetKey(KeyCode.S)) // Touche "S" pour tourner à gauche
         {
             transform.Rotate(new Vector3(0, -rotationSpeed * Time.deltaTime, 0));
         }
