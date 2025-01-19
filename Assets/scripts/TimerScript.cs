@@ -15,7 +15,11 @@ public class TimerScript : MonoBehaviour
         timeText = GameObject.Find("TimerLevel2").GetComponent<TMP_Text>();
         timerCoroutine = StartCoroutine(Pause());
     }
-
+    private IEnumerator LoadGameOverScene()
+    {
+        yield return new WaitForSeconds(1f); // Attends 1 seconde
+        SceneManager.LoadScene("GameOver");
+    }
     IEnumerator Pause()
     {
         while (StartCount > 0)
@@ -27,7 +31,7 @@ public class TimerScript : MonoBehaviour
 
         if (StartCount <= 0)
         {
-            SceneManager.LoadScene("GameOver");
+            StartCoroutine(LoadGameOverScene());
         }
     }
 
