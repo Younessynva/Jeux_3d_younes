@@ -7,6 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     path: Assets/Scenes/Level1Scene.unity
     guid: 81b2b2808abab4e408ae78b8a4d75dc7
   - enabled: 1
@@ -14,6 +15,9 @@ EditorBuildSettings:
     guid: bc9af3d7d1432804a9ea85e2cf84367e
   - enabled: 0
     path: Assets/Unity Technologies/LowpolyCharacterRio/Scenes/DemoScene.unity
+=======
+    path: Assets/Scenes/acceuil/SampleScene.unity
+>>>>>>> Stashed changes
 =======
     path: Assets/Scenes/acceuil/SampleScene.unity
 >>>>>>> Stashed changes
