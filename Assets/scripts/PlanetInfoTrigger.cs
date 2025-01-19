@@ -1,24 +1,59 @@
 using UnityEngine;
+using TMPro;
 
 public class PlanetInfoTrigger : MonoBehaviour
 {
-    public GameObject infoPopup; // Référence au pop-up d'information
+    public GameObject infoPopup; // Référence au Panel dans l'UI
+    public TextMeshProUGUI planetInfoText;  // Référence au TextMeshPro UI
+
+    private void Start()
+    {
+        // Désactive le Panel et le texte au démarrage
+        if (infoPopup != null)
+        {
+            infoPopup.SetActive(false);
+        }
+        if (planetInfoText != null)
+        {
+            planetInfoText.gameObject.SetActive(false);
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        // Vérifie si c'est le joueur qui entre dans le trigger
+        Debug.Log("OnTriggerEnter appelé !");
         if (other.CompareTag("Player"))
         {
-            infoPopup.SetActive(true); // Active le pop-up
+            Debug.Log("Joueur détecté !");
+            // Vérifie que les références sont valides
+            if (infoPopup == null || planetInfoText == null)
+            {
+                Debug.LogError("Références manquantes dans PlanetInfoTrigger !");
+                return;
+            }
+
+            // Active le Panel et le texte
+            infoPopup.SetActive(true);
+            planetInfoText.gameObject.SetActive(true);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        // Vérifie si c'est le joueur qui sort du trigger
+        Debug.Log("OnTriggerExit appelé !");
         if (other.CompareTag("Player"))
         {
-            infoPopup.SetActive(false); // Désactive le pop-up
+            Debug.Log("Joueur sorti du trigger !");
+            // Vérifie que les références sont valides
+            if (infoPopup == null || planetInfoText == null)
+            {
+                Debug.LogError("Références manquantes dans PlanetInfoTrigger !");
+                return;
+            }
+
+            // Désactive le Panel et le texte
+            infoPopup.SetActive(false);
+            planetInfoText.gameObject.SetActive(false);
         }
     }
 }
