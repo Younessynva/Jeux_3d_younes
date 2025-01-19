@@ -4,25 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    path: Assets/Scenes/Level1Scene.unity
-    guid: 81b2b2808abab4e408ae78b8a4d75dc7
-  - enabled: 1
-    path: Assets/Scenes/Level2Scene.unity
-    guid: bc9af3d7d1432804a9ea85e2cf84367e
-  - enabled: 0
-    path: Assets/Unity Technologies/LowpolyCharacterRio/Scenes/DemoScene.unity
-=======
-    path: Assets/Scenes/acceuil/SampleScene.unity
->>>>>>> Stashed changes
-=======
-    path: Assets/Scenes/acceuil/SampleScene.unity
->>>>>>> Stashed changes
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: 76614e9e93c463844a2866af87481aea, type: 2}
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_Scenes: []
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
