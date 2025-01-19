@@ -593,7 +593,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance moyenne du Soleil : 1,4 milliard de kilom\xE8tres (9,58 UA).\r\n\r\nDiam\xE8tre
+    : 116 460 km (environ 9 fois celui de la Terre).\r\n\r\nTemp\xE9rature moyenne
+    : -178 \xB0C.\r\n\r\nParticularit\xE9 : Connue pour ses spectaculaires anneaux,
+    compos\xE9s principalement de glace, de roches et de poussi\xE8re."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1029,7 +1032,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance moyenne de la Terre : 384 400 km.\r\n\r\nDiam\xE8tre : 3 474
+    km (environ 27 % de celui de la Terre).\r\n\r\nTemp\xE9rature moyenne : -173
+    \xB0C la nuit et 127 \xB0C le jour.\r\n\r\nParticularit\xE9 : Elle est le seul
+    corps c\xE9leste visit\xE9 par l'Homme (missions Apollo entre 1969 et 1972)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1165,7 +1171,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance moyenne du Soleil : 108 millions de kilom\xE8tres (0,72 UA).\r\n\r\nDiam\xE8tre
+    : 12 104 km (environ 95 % de celui de la Terre).\r\n\r\nTemp\xE9rature moyenne
+    : 464 \xB0C (la plan\xE8te la plus chaude du syst\xE8me solaire).\r\n\r\nAtmosph\xE8re
+    : Dense et toxique, compos\xE9e \xE0 96 % de dioxyde de carbone (CO\u2082) avec
+    des nuages d'acide sulfurique."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1671,7 +1681,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance moyenne du Soleil : 2,9 milliards de kilom\xE8tres (19,2 UA).\r\n\r\nDiam\xE8tre
+    : 50 724 km (environ 4 fois celui de la Terre).\r\n\r\nTemp\xE9rature moyenne
+    : -224 \xB0C (l'une des plan\xE8tes les plus froides du syst\xE8me solaire).\r\n\r\nParticularit\xE9
+    : Son axe de rotation est inclin\xE9 \xE0 98\xB0, ce qui la fait rouler sur son
+    orbite."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2338,7 +2352,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance moyenne du Soleil : 57,9 millions de kilom\xE8tres (0,39 UA).\r\n\r\nDiam\xE8tre
+    : 4 880 km (environ 38 % de celui de la Terre).\r\n\r\nTemp\xE9rature moyenne
+    : Extr\xEAmes : -173 \xB0C la nuit et 427 \xB0C le jour.\r\n\r\nAtmosph\xE8re
+    : Quasi inexistante, compos\xE9e principalement d'oxyg\xE8ne, sodium et hydrog\xE8ne."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3399,7 +3416,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance moyenne du Soleil : 5,9 milliards de kilom\xE8tres (39,5 UA).\r\n\r\nDiam\xE8tre
+    : 2 377 km (environ 18,5 % de celui de la Terre).\r\n\r\nTemp\xE9rature moyenne
+    : -229 \xB0C (tr\xE8s froid et glac\xE9).\r\n\r\nParticularit\xE9 : Class\xE9e
+    comme plan\xE8te naine depuis 2006, elle poss\xE8de une atmosph\xE8re t\xE9nue
+    et 5 lunes connues (dont Charon, la plus grande)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3710,7 +3731,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance du Soleil : 149,6M km\r\n\r\nDiam\xE8tre : 12 742 km\r\n\r\nTemp\xE9rature
+    : 15 \xB0C (moyenne)\r\n\r\nParticularit\xE9 : Seule plan\xE8te habit\xE9e"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3995,7 +4017,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance moyenne du Soleil : 4,5 milliards de kilom\xE8tres (30,07 UA).\r\n\r\nDiam\xE8tre
+    : 49 244 km (environ 4 fois celui de la Terre).\r\n\r\nTemp\xE9rature moyenne
+    : -214 \xB0C (l'une des plan\xE8tes les plus froides du syst\xE8me solaire).\r\n\r\nAtmosph\xE8re
+    : Compos\xE9e principalement d'hydrog\xE8ne (80 %), d'h\xE9lium (19 %) et de
+    traces de m\xE9thane (qui lui donne sa couleur bleue)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4240,7 +4266,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Distance moyenne du Soleil : 778 millions de kilom\xE8tres (5,2 UA).\r\n\r\nDiam\xE8tre
+    : 139 820 km (environ 11 fois celui de la Terre).\r\n\r\nTemp\xE9rature moyenne
+    : -108 \xB0C (au niveau de la couche nuageuse sup\xE9rieure).\r\n\r\nParticularit\xE9
+    : Elle poss\xE8de 79 lunes connues et la Grande Tache Rouge, une temp\xEAte g\xE9ante
+    qui dure depuis des si\xE8cles."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
