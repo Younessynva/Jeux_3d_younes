@@ -2,40 +2,39 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float speed = 20;
-    float rotation_speed = 50;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public float speed = 13f; // Vitesse de déplacement
+    public float rotationSpeed = 200f; // Vitesse de rotation
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.position += transform.forward * speed * Time.deltaTime; 
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.position -= transform.forward * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.Q))
-        {
-            transform.position -= transform.right * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.D))
+        // Déplacement avant/arrière avec les flèches haut/bas
+        if (Input.GetKey(KeyCode.UpArrow)) // Flèche haut pour avancer
         {
             transform.position += transform.forward * speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.DownArrow)) // Flèche bas pour reculer
         {
-            transform.Rotate(new Vector3(0, -rotation_speed * Time.deltaTime, 0));
+            transform.position -= transform.forward * speed * Time.deltaTime;
         }
-        else if  (Input.GetKey(KeyCode.RightArrow))
-            {
-            transform.Rotate(new Vector3(0, rotation_speed * Time.deltaTime, 0));
+
+        // Déplacement latéral avec les flèches gauche/droite
+        if (Input.GetKey(KeyCode.LeftArrow)) // Flèche gauche pour bouger à gauche
+        {
+            transform.position -= transform.right * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.RightArrow)) // Flèche droite pour bouger à droite
+        {
+            transform.position += transform.right * speed * Time.deltaTime;
+        }
+
+        // Rotation gauche/droite avec les touches "Q" et "D"
+        if (Input.GetKey(KeyCode.S)) // Touche "Q" pour tourner à gauche
+        {
+            transform.Rotate(new Vector3(0, -rotationSpeed * Time.deltaTime, 0));
+        }
+        if (Input.GetKey(KeyCode.D)) // Touche "D" pour tourner à droite
+        {
+            transform.Rotate(new Vector3(0, rotationSpeed * Time.deltaTime, 0));
         }
     }
 }
