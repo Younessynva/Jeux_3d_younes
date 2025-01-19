@@ -14,7 +14,11 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   serializedVersion: 9
+=======
+  serializedVersion: 10
+>>>>>>> Stashed changes
 =======
   serializedVersion: 10
 >>>>>>> Stashed changes
@@ -43,7 +47,10 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_IndirectSpecularColor: {r: 0.18028396, g: 0.22571558, b: 0.3069237, a: 1}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_UseRadianceAmbientProbe: 0
@@ -51,8 +58,13 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   serializedVersion: 12
   m_GIWorkflowMode: 1
+=======
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+>>>>>>> Stashed changes
 =======
   serializedVersion: 13
   m_BakeOnSceneLoad: 0
@@ -80,9 +92,12 @@ LightmapSettings:
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     m_ReflectionCompression: 2
@@ -113,7 +128,11 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LightingDataAsset: {fileID: 0}
+=======
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> Stashed changes
 =======
   m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
 >>>>>>> Stashed changes
@@ -230,7 +249,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 0, y: 1, z: -10}
+=======
+  m_LocalPosition: {x: 0, y: 2.27, z: -10}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 0, y: 2.27, z: -10}
 >>>>>>> Stashed changes
@@ -278,6 +301,7 @@ MonoBehaviour:
   m_Version: 2
   m_TaaSettings:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     quality: 3
     frameInfluence: 0.1
     jitterScale: 1
@@ -285,12 +309,17 @@ MonoBehaviour:
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
 =======
+=======
+>>>>>>> Stashed changes
     m_Quality: 3
     m_FrameInfluence: 0.1
     m_JitterScale: 1
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &410087039
 GameObject:
@@ -319,9 +348,14 @@ Light:
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
+=======
+  serializedVersion: 11
+  m_Type: 1
+>>>>>>> Stashed changes
 =======
   serializedVersion: 11
   m_Type: 1
@@ -337,7 +371,11 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Strength: 0.8
+=======
+    m_Strength: 1
+>>>>>>> Stashed changes
 =======
     m_Strength: 1
 >>>>>>> Stashed changes
@@ -380,15 +418,21 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 =======
+=======
+>>>>>>> Stashed changes
   m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!4 &410087041
 Transform:
@@ -399,7 +443,11 @@ Transform:
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: -0.065075815, y: -0.8954988, z: 0.41757768, w: -0.13955598}
+=======
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
 >>>>>>> Stashed changes
@@ -409,7 +457,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: 50, y: -197.716, z: 0}
+=======
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+>>>>>>> Stashed changes
 =======
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 >>>>>>> Stashed changes
@@ -436,6 +488,7 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!1001 &727842058
 PrefabInstance:
@@ -506,6 +559,8 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64b182395c0b6744a920c74bce3ece13, type: 3}
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &724229168
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +654,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &832575517
 GameObject:
@@ -634,7 +692,11 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
+=======
+  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+>>>>>>> Stashed changes
 =======
   sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
 >>>>>>> Stashed changes
@@ -661,7 +723,11 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - {fileID: 727842058}
+=======
+  - {fileID: 724229171}
+>>>>>>> Stashed changes
 =======
   - {fileID: 724229171}
 >>>>>>> Stashed changes
