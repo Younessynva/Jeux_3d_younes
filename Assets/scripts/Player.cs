@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 20f; // Vitesse de déplacement
-    public float rotationSpeed = 400f; // Vitesse de rotation
+    public float speed = 40f; // Vitesse de déplacement
+    public float rotationSpeed = 500f; // Vitesse de rotation
 
     void Update()
     {
