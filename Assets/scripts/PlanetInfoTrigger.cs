@@ -1,13 +1,15 @@
 using UnityEngine;
 using TMPro;
 
-public class PlanetInfoTrigger : MonoBehaviour
+public class PlanetInfoTrigger : MonoBehaviour // Pas de 'private' ici
 {
     public GameObject infoPopup; // Référence au Panel dans l'UI
     public TextMeshProUGUI planetInfoText;  // Référence au TextMeshPro UI
     public TextMeshProUGUI pressPText; // Référence au texte "Appuyez sur P"
+    public int scorePoints = 10; // Points attribués pour cette planète
 
     private bool isPlayerNear = false; // Indique si le joueur est proche de la planète
+    private bool hasInteracted = false; // Indique si le joueur a déjà interagi avec la planète
 
     private void Start()
     {
@@ -87,6 +89,14 @@ public class PlanetInfoTrigger : MonoBehaviour
             if (pressPText != null)
             {
                 pressPText.gameObject.SetActive(false);
+            }
+
+            // Ajoute des points au score seulement si le joueur n'a pas déjà interagi
+            if (!hasInteracted)
+            {
+                ScoreManager.Instance.AddScore(scorePoints);
+                ScoreManager.Instance.DecreasePlanetsRemaining(); // Diminue le nombre de planètes restantes
+                hasInteracted = true; // Marque la planète comme déjà interagie
             }
         }
     }
